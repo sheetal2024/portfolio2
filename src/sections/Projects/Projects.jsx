@@ -1,5 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import snake from '../../assets/snake.png';
+import nyra from '../../assets/nyra.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -12,6 +13,12 @@ function Projects() {
           link="https://snakegamexyz.netlify.app/"
           h3="SnakeGame"
           p="Game"
+        />
+        <ProjectCard
+          src={nyra}
+          link="https://nyra.netlify.app/"
+          h3="Nyra"
+          p="AI Chatbot"
         />
       </div>
     </section>
